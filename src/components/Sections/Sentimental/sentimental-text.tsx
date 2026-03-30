@@ -44,8 +44,8 @@ const SentimentalSection = ({
       >
         Desde la tercera cita, la tercera vez que te ví, en mi casa, supe que
         vos ibas a ser mi novia, me lo callaba, para mi mismo y para los demás
-        por miedo a fallar, a que no me elijas y otra vez quedarme con las ganas
-        de qué podría haber pasado.
+        por miedo a fallar, a que no me elijas y quedarme con las ganas de qué
+        podría haber pasado.
       </ScrollReveal>
       <ScrollReveal
         baseOpacity={0.1}
