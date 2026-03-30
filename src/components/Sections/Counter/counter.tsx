@@ -47,6 +47,16 @@ const Counter = () => {
 
   return (
     <Section className="grid place-content-center h-screen bg-transparent text-white relative">
+      <div className="absolute -top-10 w-screen">
+        <CurvedLoop
+          marqueeText="🫶  💖  💕  ❤️  🤍  💝  🫶  💜  💛  💞  ❣️  🧡  🫶  💙  💓  🤎  💗  🖤  🤍  💘  💟  🫶  💙  💛  💙"
+          speed={2}
+          direction="left"
+          curveAmount={-400}
+          interactive={false}
+          className="absolute left-0 w-screen"
+        />
+      </div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 m-0 mx-auto flex flex-col gap-3">
         <h2 className="text-4xl font-bold font-jetbrains text-center">
           MI novia desde:

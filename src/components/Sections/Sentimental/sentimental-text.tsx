@@ -43,9 +43,9 @@ const SentimentalSection = ({
         scrollContainerRef={scrollContainerRef as RefObject<HTMLElement>}
       >
         Desde la tercera cita, la tercera vez que te ví, en mi casa, supe que
-        vos ibas a ser mi novia, me lo callaba, para mi mismo y para los demás
-        por miedo a fallar, a que no me elijas y quedarme con las ganas de qué
-        podría haber pasado.
+        vos ibas a ser mi novia, siempre estuve ansioso para saber si vos
+        pensabas lo mismo o no, por lo que me decías y a mi eso me generaba un
+        montón de dudas de si limitarme o no.
       </ScrollReveal>
       <ScrollReveal
         baseOpacity={0.1}
@@ -62,9 +62,9 @@ const SentimentalSection = ({
         el humor, que nos ríamos, seamos nenes pero sobre todo, un lugar dónde
         yo, pueda ser yo, diciendo mis boludeces, mis chistes, dónde sentirme
         seguro, dónde ir a refugiarme cuando pasa algo y viceversa. Y ahí conocí
-        a la mujer más increible que pude haber conocido, en un lugar,
-        indeseado, quizás, pero que hay tantas cosas que nos unen que era casi
-        imposible de que una forma u otra no nos termináramos conociendo igual.
+        a la mujer más increible, en un lugar indeseado, quizás, pero que hay
+        tantas cosas que nos unen que era casi imposible de que una forma u otra
+        no nos termináramos conociendo igual.
       </ScrollReveal>
       <ScrollReveal
         baseOpacity={0.1}
@@ -77,7 +77,8 @@ const SentimentalSection = ({
       >
         Desde que te conocí cada vez que te veo, escribo, pienso, soy más feliz,
         porque me llevas a eso, porque me mejoras, me motivás y te lo voy a
-        agradecer por siempre.
+        agradecer por siempre. Superaste todas mis expectativas en todos los
+        sentidos y estoy muy feliz de que me hayas elegido y yo a vos.
       </ScrollReveal>
       <ScrollReveal
         baseOpacity={0.1}
@@ -103,11 +104,23 @@ const SentimentalSection = ({
         scrollContainerRef={scrollContainerRef as RefObject<HTMLElement>}
       >
         Por último, hacerte saber, Ornellita, que me haces un hombre muy feliz,
-        que me encantas, que te voy a cuidar, mimar, amar, proyectar. Sos una
-        personita muy linda que ilumina a los demás con tu carisma y me iluminás
-        a mi también, una persona maravillosa en todos los aspectos, muy buena,
+        que me encantas, que te voy a cuidar, mimar, amar y proyectar con vos es
+        mi deseo máximo. Sos una personita muy linda que ilumina a los demás con
+        tu carisma, una persona maravillosa en todos los aspectos, muy buena,
         considerada, que piensa mucho en los demás, amorosa, cariñosa, pegajosa
-        pero sobre todo, un Koala.
+        pero sobre todo, un Koalita🐨.
+      </ScrollReveal>
+
+      <ScrollReveal
+        baseOpacity={0.1}
+        enableBlur
+        baseRotation={0}
+        blurStrength={4}
+        textClassName="text-white text-lg font-jetbrains px-22 my-5 text-justify"
+        containerClassName="max-w-[1366px] w-full"
+        scrollContainerRef={scrollContainerRef as RefObject<HTMLElement>}
+      >
+        ¡¡¡¡Yo quiero todo con vos!!!!
       </ScrollReveal>
 
       <ScrollReveal
