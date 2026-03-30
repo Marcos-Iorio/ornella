@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Section from "../../Section";
 import GradientText from "../../GradientText";
-import Grainient from "../../Grainient";
 
 const listOfWords = ["amor", "compañía", "risas", "alegría", "recuerdos"];
 

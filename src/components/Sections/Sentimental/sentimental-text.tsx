@@ -119,7 +119,7 @@ const SentimentalSection = ({
       >
         Te amo mi amor, quiero que estemos juntos por siempre ❤️.
       </ScrollReveal>
-      <div className="w-[300px] h-[400px] mx-auto my-10">
+      <div className="w-75 h-100 mx-auto my-10">
         <Stack
           randomRotation={true}
           sensitivity={200}

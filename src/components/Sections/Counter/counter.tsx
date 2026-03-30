@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Grainient from "../../Grainient";
 import Section from "../../Section";
 import CountUp from "../../CountUp";
 
