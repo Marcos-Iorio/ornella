@@ -8,8 +8,10 @@ import img2 from "../../../assets/images/img-2.JPG";
 import img3 from "../../../assets/images/img-3.JPG";
 import img4 from "../../../assets/images/img-4.jpeg";
 import img5 from "../../../assets/images/img-5.JPG";
+import img6 from "../../../assets/images/img-6.jpeg";
+import img7 from "../../../assets/images/img-7.jpeg";
 
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, img2, img3, img4, img5, img6, img7];
 
 const SentimentalSection = ({
   scrollContainerRef,

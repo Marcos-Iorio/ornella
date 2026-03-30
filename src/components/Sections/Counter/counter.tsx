@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Section from "../../Section";
 import CountUp from "../../CountUp";
+import CurvedLoop from "../../CurvedLoop";
 
 const START_DATE = new Date("2026-04-02");
 
@@ -48,13 +49,23 @@ const Counter = () => {
     <Section className="grid place-content-center h-screen bg-transparent text-white relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 m-0 mx-auto flex flex-col gap-3">
         <h2 className="text-4xl font-bold font-jetbrains text-center">
-          Somos novios desde:
+          MI novia desde:
         </h2>
         <div className="flex flex-row justify-between gap-5">
           <CounterItem time={elapsed.days} timeSpec="DÍAS" />
           <CounterItem time={elapsed.hours} timeSpec="HORAS" />
           <CounterItem time={elapsed.minutes} timeSpec="MINUTOS" />
         </div>
+      </div>
+      <div className="absolute -bottom-32 w-screen">
+        <CurvedLoop
+          marqueeText="🫶  💖  💕  ❤️  🤍  💝  🫶  💜  💛  💞  ❣️  🧡  🫶  💙  💓  🤎  💗  🖤  🤍  💘  💟  🫶  💙  💛  💙"
+          speed={2}
+          direction="right"
+          curveAmount={400}
+          interactive={false}
+          className="absolute left-0 w-screen"
+        />
       </div>
     </Section>
   );
