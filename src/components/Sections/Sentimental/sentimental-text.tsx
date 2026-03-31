@@ -31,7 +31,7 @@ const SentimentalSection = ({
       >
         No soy muy bueno haciendo cartas, menos escribiendolas, por eso, quise
         hacer algo en lo que por lo menos, tengo un poquito de conocimiento y se
-        me da "bien", tipear.
+        me da "bien", programar(creo).
       </ScrollReveal>
       <ScrollReveal
         baseOpacity={0.1}
@@ -42,10 +42,11 @@ const SentimentalSection = ({
         containerClassName="max-w-[1366px] w-full"
         scrollContainerRef={scrollContainerRef as RefObject<HTMLElement>}
       >
-        Desde la tercera cita, la tercera vez que te ví, en mi casa, supe que
-        vos ibas a ser mi novia, siempre estuve ansioso para saber si vos
-        pensabas lo mismo o no, por lo que me decías y a mi eso me generaba un
-        montón de dudas de si limitarme o no.
+        No sé ni por donde arrancar, Ornellita. Generaste tanto, tanto en tan
+        poco tiempo que pienso y pienso pero no sé cómo explayarme o explicar lo
+        que me pasa. Y creo que cualquier cosa que ponga en esta carta digital,
+        no alcanza para decir lo que pienso y siento sobre vos, pero espero
+        poder hacerlo o llegar a dónde quiero.
       </ScrollReveal>
       <ScrollReveal
         baseOpacity={0.1}
@@ -78,7 +79,9 @@ const SentimentalSection = ({
         Desde que te conocí cada vez que te veo, escribo, pienso, soy más feliz,
         porque me llevas a eso, porque me mejoras, me motivás y te lo voy a
         agradecer por siempre. Superaste todas mis expectativas en todos los
-        sentidos y estoy muy feliz de que me hayas elegido y yo a vos.
+        sentidos y estoy muy feliz de que me hayas elegido y yo a vos. Hiciste
+        salir una faceta mía que hace muuuucho no veía y es la de sentirme bien,
+        libre, enamorado.
       </ScrollReveal>
       <ScrollReveal
         baseOpacity={0.1}
@@ -91,8 +94,7 @@ const SentimentalSection = ({
       >
         Por eso, quiero que compartamos la vida juntos, dando este paso(espero
         que el Marquitos del pasado te este mostrando esto una vez hayas dicho
-        si)para confirmar lo que ya somos y como actuamos, solo que con el
-        titulo oficial.
+        si)para que nos acompañemos, nos riamos y nos hagamos bien mutuamente.
       </ScrollReveal>
       <ScrollReveal
         baseOpacity={0.1}
@@ -103,12 +105,12 @@ const SentimentalSection = ({
         containerClassName="max-w-[1366px] w-full"
         scrollContainerRef={scrollContainerRef as RefObject<HTMLElement>}
       >
-        Por último, hacerte saber, Ornellita, que me haces un hombre muy feliz,
-        que me encantas, que te voy a cuidar, mimar, amar y proyectar con vos es
-        mi deseo máximo. Sos una personita muy linda que ilumina a los demás con
-        tu carisma, una persona maravillosa en todos los aspectos, muy buena,
-        considerada, que piensa mucho en los demás, amorosa, cariñosa, pegajosa
-        pero sobre todo, un Koalita🐨.
+        Por último, hacerte saber, hermosa mía, que me haces un hombre muy
+        feliz, que me encantas, que te voy a cuidar, mimar, amar. Proyectar con
+        vos es mi deseo máximo. Sos una personita muy linda que ilumina a los
+        demás con tu carisma, una persona maravillosa en todos los aspectos, muy
+        buena, considerada, que piensa mucho en los demás, amorosa, cariñosa,
+        pegajosa pero sobre todo, un Koalita🐨.
       </ScrollReveal>
 
       <ScrollReveal
@@ -132,7 +134,8 @@ const SentimentalSection = ({
         containerClassName="max-w-[1366px] w-full"
         scrollContainerRef={scrollContainerRef as RefObject<HTMLElement>}
       >
-        Te amo mi amor, quiero que estemos juntos por siempre ❤️.
+        Te amo mi amor, con todo lo que soy, quiero que seamos felices juntitos
+        por siempre ❤️.
       </ScrollReveal>
       <div className="w-75 h-100 mx-auto my-10">
         <Stack

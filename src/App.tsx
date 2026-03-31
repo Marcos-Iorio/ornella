@@ -48,6 +48,15 @@ function App() {
         <Quote />
         <SentimentalSection scrollContainerRef={mainRef} />
         <Counter />
+        <footer className="h-screen grid place-content-center bg-black snap-start">
+          <p className="text-white font-playwrite">
+            Diseñado y programado por tu chico 🤍. Para{" "}
+            <span className="underline">vos</span> y nadie más, Or.
+          </p>
+          <p className="text-center font-playwrite text-2xl text-yellow-400 font-bold">
+            Te amo
+          </p>
+        </footer>
       </main>
     </>
   );

@@ -2,7 +2,16 @@ import { useEffect, useState } from "react";
 import Section from "../../Section";
 import GradientText from "../../GradientText";
 
-const listOfWords = ["amor", "compañía", "risas", "alegría", "recuerdos"];
+const listOfWords = [
+  "amor",
+  "compañía",
+  "risas",
+  "alegría",
+  "recuerdos",
+  "experiencias",
+  "vivir",
+  "locuras",
+];
 
 type Phase = "typing" | "pausing" | "erasing";
 
