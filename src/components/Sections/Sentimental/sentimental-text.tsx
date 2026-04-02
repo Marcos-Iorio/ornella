@@ -92,6 +92,20 @@ const SentimentalSection = ({
         containerClassName="max-w-[1366px] w-full"
         scrollContainerRef={scrollContainerRef as RefObject<HTMLElement>}
       >
+        Todos los días, a cada momento, aprendo un montón de vos, de está
+        relación y de todo lo relacionado. Me gusta que te sientas escuchada,
+        darte detalles, saber que estás para mi cómo yo para vos y una infinidad
+        de cosas más.
+      </ScrollReveal>
+      <ScrollReveal
+        baseOpacity={0.1}
+        enableBlur
+        baseRotation={0}
+        blurStrength={4}
+        textClassName="text-white text-lg font-jetbrains px-22 my-5 text-justify"
+        containerClassName="max-w-[1366px] w-full"
+        scrollContainerRef={scrollContainerRef as RefObject<HTMLElement>}
+      >
         Por eso, quiero que compartamos la vida juntos, dando este paso(espero
         que el Marquitos del pasado te este mostrando esto una vez hayas dicho
         si)para que nos acompañemos, nos riamos y nos hagamos bien mutuamente.

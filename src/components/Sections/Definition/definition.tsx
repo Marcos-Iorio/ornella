@@ -11,6 +11,7 @@ const listOfWords = [
   "experiencias",
   "vivir",
   "locuras",
+  "confianza",
 ];
 
 type Phase = "typing" | "pausing" | "erasing";
