@@ -6,7 +6,7 @@ const Quote = () => {
   return (
     <Section className="grid place-content-center bg-black relative h-screen">
       <p className="text-5xl font-bold font-jetbrains text-white flex flex-col justify-center">
-        A parte de gustarme,
+        Aparte de gustarme,
         <GradientText
           colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
           animationSpeed={8}

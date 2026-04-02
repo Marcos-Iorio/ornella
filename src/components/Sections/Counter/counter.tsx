@@ -3,10 +3,11 @@ import Section from "../../Section";
 import CountUp from "../../CountUp";
 import CurvedLoop from "../../CurvedLoop";
 
-const START_DATE = new Date("2026-04-02");
+const START_DATE = new Date("2026-04-02T00:00:00-03:00");
 
 const getElapsed = () => {
   const diff = Date.now() - START_DATE.getTime();
+  if (diff < 0) return { days: 0, hours: 0, minutes: 0 };
   const totalMinutes = Math.floor(diff / 1000 / 60);
   const totalHours = Math.floor(totalMinutes / 60);
   const days = Math.floor(totalHours / 24);
@@ -62,7 +63,10 @@ const Counter = () => {
           MI novia desde:
         </h2>
         <div className="flex flex-row justify-between gap-5">
-          <CounterItem time={elapsed.days} timeSpec="DÍAS" />
+          <CounterItem
+            time={elapsed.days}
+            timeSpec={elapsed.days > 1 ? "DÍAS" : "DÍA"}
+          />
           <CounterItem time={elapsed.hours} timeSpec="HORAS" />
           <CounterItem time={elapsed.minutes} timeSpec="MINUTOS" />
         </div>
