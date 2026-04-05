@@ -47,7 +47,10 @@ const Counter = () => {
   }, []);
 
   return (
-    <Section className="grid place-content-center h-screen bg-transparent text-white relative">
+    <Section
+      id="counter"
+      className="grid place-content-center h-screen bg-transparent text-white relative"
+    >
       <div className="absolute -top-10 w-screen">
         <CurvedLoop
           marqueeText="🫶  💖  💕  ❤️  🤍  💝  🫶  💜  💛  💞  ❣️  🧡  🫶  💙  💓  🤎  💗  🖤  🤍  💘  💟  🫶  💙  💛  💙"
